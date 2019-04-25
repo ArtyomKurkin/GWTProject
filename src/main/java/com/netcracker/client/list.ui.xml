@@ -1,0 +1,26 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:clv="urn:import:com.google.gwt.user.cellview.client">
+    <g:HTMLPanel>
+        <div align="center">
+            <g:HorizontalPanel ui:field="horPanel">
+                <g:HTMLPanel>
+                    <table align="center" cellspacing='0' cellpadding='0' style='width:100%;'>
+                        <tr>
+                            <td align='center'>
+                                <clv:CellTable
+                                        pageSize='5'
+                                        ui:field='table' />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align='center'>
+                                <clv:SimplePager ui:field='pager' />
+                            </td>
+                        </tr>
+                    </table>
+                </g:HTMLPanel>
+            </g:HorizontalPanel>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

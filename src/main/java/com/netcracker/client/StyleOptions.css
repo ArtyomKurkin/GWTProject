@@ -1,0 +1,58 @@
+.header1{
+    color:#000000;
+    font-size:18px;
+    text-align: center;
+    text-weight:bold;
+}
+.info{
+    color:red;
+    font-size:20px;
+    text-align: center;
+    text-weight:bold;
+}
+.text{
+    color:#000000;
+    font-size:16px;
+    text-align:left;
+    margin-left:10px;
+    width:100px;
+}
+.fields{
+    margin-left:5px;
+    font-size:16px;
+}
+.divStyle{
+    width:300px;
+    border: 1px solid #000000;
+    margin-left:10px;
+}
+.horpanel{
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:10px;
+}
+.horpanel-add{
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:10px;
+    align-items: center;
+}
+.button-ad{
+    border:1px solid #000000;
+    color:#000000;
+    font-size:16px;
+
+    font-weight:bold;
+    padding:10px;
+    text-align:center
+}
+.button{
+    border:1px solid #000000;
+    color:#000000;
+    font-size:16px;
+    margin-left:10px;
+    margin-right: 0px;
+    font-weight:bold;
+    padding:10px;
+}
+
